@@ -1,0 +1,11 @@
+package Interface;
+
+public interface Computador {
+
+	public void ligar();
+	public void desligar();
+	public void reiniciar();
+	public void carregandoSistema();
+	public void jogar();
+	public void trabalhar();
+}
