@@ -1,0 +1,15 @@
+package Interface;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Lobo husk = new Lobo();
+		
+		husk.caminhar();
+		husk.correr();
+		husk.dormir();
+		husk.emitirSom();
+
+	}
+
+}
