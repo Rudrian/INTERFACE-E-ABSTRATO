@@ -1,0 +1,16 @@
+package Interface;
+
+public class ResultadosCalculadora {
+    public static void main(String[] args) {
+        Calculando calculadora = new Calculando();
+
+        double num1 = 0;
+        double num2 = 0;
+
+        System.out.println("A soma dos números é: " + calculadora.somar(num1, num2));
+        System.out.println("A subtração dos números é: " + calculadora.subt(num1, num2));
+        System.out.println("A multiplicação dos números é: " + calculadora.multi(num1, num2));
+        System.out.println("A divisão dos números é : " + calculadora.div(num1, num2));
+        System.out.println("10 elevado a 2° potencia é : " + calculadora.expo(num1, num2));
+    }
+}
