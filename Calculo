@@ -1,0 +1,9 @@
+package Interface;
+
+public interface Calculo {
+		public double somar(double a, double b);
+		public double subt(double a, double b);
+		public double multi(double a, double b);
+		public int div(double a, double b);
+		public int expo(double base, double expoente);
+}
