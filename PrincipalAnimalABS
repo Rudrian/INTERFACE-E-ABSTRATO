@@ -1,0 +1,79 @@
+package Interface;
+
+public class PrincipalAnimalAbs {
+
+    public static void main(String[] args) {
+        
+        LoboAbs husk = new LoboAbs();
+        GatoAbs jubileu = new GatoAbs();
+        LeaoAbs simba = new LeaoAbs();
+        TigreAbs frozen = new TigreAbs();
+        Cachorro totó = new Cachorro();
+
+        
+        System.out.println("-                                                     -");
+        System.out.println("Animal 1");
+        
+        husk.setNome("Husk");
+        husk.setRaca("Siberiano");
+        husk.setSexo("Macho");
+        
+        System.out.println("Nome: " + husk.getNome());
+        System.out.println("Raça: " + husk.getRaca());
+        System.out.println("Sexo: " + husk.getSexo());
+        
+        husk.emitirSom();
+    
+        System.out.println("-                                                     -");
+        System.out.println("Animal 2");
+        
+        jubileu.setNome("Jubileu");
+        jubileu.setRaca("Siamês");
+        jubileu.setSexo("Macho");
+    
+        System.out.println("Nome: " + jubileu.getNome());
+        System.out.println("Raça: " + jubileu.getRaca());
+        System.out.println("Sexo: " + jubileu.getSexo());
+    
+        jubileu.emitirSom();
+        
+        System.out.println("-                                                     -");
+        System.out.println("Animal 3");
+        
+        simba.setNome("Simba");
+        simba.setRaca("Leão do congo");
+        simba.setSexo("Macho");
+        
+        System.out.println("Nome: " + simba.getNome());
+        System.out.println("Raça: " + simba.getRaca());
+        System.out.println("Sexo: " + simba.getSexo());
+        
+        simba.emitirSom();
+        
+        System.out.println("-                                                     -");
+        System.out.println("Animal 4");
+        
+        frozen.setNome("frozen");
+        frozen.setRaca("Tigre de bengala");
+        frozen.setSexo("femêa");
+        
+        System.out.println("Nome: " + frozen.getNome());
+        System.out.println("Raça: " + frozen.getRaca());
+        System.out.println("Sexo: " + frozen.getSexo());
+        
+        frozen.emitirSom();
+        
+        System.out.println("-                                                     -");
+        System.out.println("Animal 5");
+        
+        totó.setNome("totó");
+        totó.setRaca("Bulldog");
+        totó.setSexo("Macho");
+        
+        System.out.println("Nome: " + totó.getNome());
+        System.out.println("Raça: " + totó.getRaca());
+        System.out.println("Sexo: " + totó.getSexo());
+        
+        totó.emitirSom();
+}
+}
