@@ -1,0 +1,41 @@
+package Interface;
+
+public class Ferrari implements Veiculo{
+
+	@Override
+	public void ligar() {
+		System.out.println("Você ligou sua Ferrari");
+		
+	}
+
+	@Override
+	public void desligar() {
+		System.out.println("Você desligou sua Ferrari");
+		
+	}
+
+	@Override
+	public void manobrar() {
+		System.out.println("Você esta manobrando sua Ferrari");
+		
+	}
+
+	@Override
+	public void engatar() {
+		System.out.println("Você engatou a primeira marcha");
+		
+	}
+
+	@Override
+	public void acelerar() {
+		System.out.println("Você esta acelerando");
+		
+	}
+
+	@Override
+	public void frear() {
+		System.out.println("Você esta freando");
+		
+	}
+
+}
