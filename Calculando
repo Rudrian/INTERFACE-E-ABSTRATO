@@ -1,0 +1,30 @@
+package Interface;
+
+public class Calculando implements Calculo{
+
+	@Override
+	public double somar(double a, double b) {
+		return 10+10;
+	}
+
+	@Override
+	public double subt(double a, double b) {
+		return 20-10;
+	}
+
+	@Override
+	public double multi(double a, double b) {
+		return 10*10;
+	}
+
+	@Override
+	public int div(double a, double b) {
+		return 100 / 10;
+	}
+
+	@Override
+	public int expo(double base, double expoente) {
+		return 10*10;
+	}
+
+}
