@@ -1,0 +1,30 @@
+package Interface;
+
+public class PrincipalComp {
+
+	public static void main(String[] args) {
+		Trabalhar computador = new Trabalhar();
+
+		System.out.println("=                                           =");
+		System.out.println("COMPUTADOR WORK");
+		computador.ligar();
+		computador.desligar();
+		computador.carregandoSistema();
+		computador.reiniciar();
+		computador.trabalhar();
+		System.out.println("=                                           =");
+		System.out.println("COMPUTADOR GAMER RGB");
+		computador.ligar();
+		computador.desligar();
+		computador.carregandoSistema();
+		computador.reiniciar();
+		computador.jogar();
+		System.out.println("=                                           =");
+		System.out.println("COMPUTADOR DIVERSÃO");
+		computador.ligar();
+		computador.desligar();
+		computador.reiniciar();
+		computador.carregandoSistema();
+	}
+
+}
