@@ -1,0 +1,16 @@
+package Interface;
+
+public class PrincipalVeiculos {
+	public static void main(String[] args) {
+		
+		Ferrari ferrari = new Ferrari();
+		
+		ferrari.acelerar();
+		ferrari.desligar();
+		ferrari.engatar();
+		ferrari.frear();
+		ferrari.manobrar();
+		ferrari.ligar();
+		
+	}
+}
