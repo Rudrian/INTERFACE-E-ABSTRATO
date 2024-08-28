@@ -1,0 +1,40 @@
+package Interface;
+
+public class GatoAbs extends AnimalAbs {
+    
+    public GatoAbs() {
+    }
+
+     String nome;
+     String sexo;
+     String raca;
+
+    @Override
+    public void emitirSom() {
+        System.out.println(nome + " está miando.");
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getSexo() {
+        return sexo;
+    }
+
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
+    }
+
+    public String getRaca() {
+        return raca;
+    }
+
+    public void setRaca(String raca) {
+        this.raca = raca;
+    }
+}
