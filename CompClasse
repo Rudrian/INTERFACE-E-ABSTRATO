@@ -1,0 +1,37 @@
+package Interface;
+
+public class Trabalhar implements Home{
+
+	@Override
+	public void ligar() {
+		System.out.println("Você ligou seu PC");
+	}
+
+	@Override
+	public void desligar() {
+		System.out.println("Você desligou seu PC");		
+	}
+
+	@Override
+	public void reiniciar() {
+		System.out.println("Você reiniciou seu PC");		
+	}
+
+	@Override
+	public void carregandoSistema() {
+		System.out.println("Você esta atualizando seu PC");		
+	}
+
+	@Override
+	public void trabalhar() {
+		System.out.println("Você esta trabalhando HTML");		
+	}
+	
+	@Override
+	public void jogar() {
+		System.out.println("Você esta jogando Relampago Marquinhos");
+		
+	}
+
+
+}
